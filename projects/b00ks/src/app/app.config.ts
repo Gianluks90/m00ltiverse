@@ -12,6 +12,6 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideRouter(routes),
-    { provide: APP_CONFIG, useValue: B00KS_CONFIG }
+    { provide: APP_CONFIG, useValue: B00KS_CONFIG },
   ],
 };
