@@ -1,0 +1,25 @@
+body[data-theme='dark'] {
+
+  --fg-color: #FFF;
+  --bg-color: #434343;
+
+  --fg-color-muted: rgba(255,255,255,0.7);
+  --bg-color-muted: rgba(255,255,255,0.1);
+
+  --button-fg-color: #FFF;
+  --button-bg-color: #212121;
+
+  --button-border-color: rgba(255,255,255,0.2);
+
+  --input-fg-color: #FFF;
+  --input-bg-color: #212121;
+
+  --container-fg-color: #FFF;
+  --container-bg-color: #212121;
+
+  --warning-color: yellow;
+  --error-color: crimson;
+
+  color-scheme: dark;
+
+}

@@ -1,0 +1,25 @@
+body[data-theme='light'] {
+
+  --fg-color: #434343;
+  --bg-color: #FFF;
+
+  --fg-color-muted: rgba(67, 67, 67, 0.6);
+  --bg-color-muted: rgba(67, 67, 67, 0.1);
+
+  --button-fg-color: #434343;
+  --button-bg-color: #FFF;
+  --button-border-color: rgba(43, 43, 43, 0.3);
+
+  --input-fg-color: #434343;
+  --input-bg-color: #FFF;
+  --input-border-color: rgba(43, 43, 43, 0.3);
+
+  --container-fg-color: #434343;
+  --container-bg-color: #EFEFEF;
+
+  --warning-color: goldenrod;
+  --error-color: crimson;
+
+  color-scheme: light;
+
+}

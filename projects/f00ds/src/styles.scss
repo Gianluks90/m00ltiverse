@@ -1,0 +1,11 @@
+// MANDATORY use
+@use "../../shared-ui/src/lib/styles/index.scss";
+
+html,
+body {
+  background: var(--bg-color);
+  color: var(--fg-color);
+
+  font-family: var(--font-family);
+
+}
