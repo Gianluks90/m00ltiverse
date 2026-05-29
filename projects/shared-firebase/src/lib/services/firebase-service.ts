@@ -9,7 +9,7 @@ import { Firestore, getFirestore } from "firebase/firestore";
 export class FirebaseService {
   public app: FirebaseApp | null = null;
   public auth: Auth | null = null;
-  public db: Firestore | null = null;
+  public db!: Firestore;
 
   public init(config: any): void {
     
