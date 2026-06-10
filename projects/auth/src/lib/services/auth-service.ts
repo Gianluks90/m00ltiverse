@@ -2,7 +2,7 @@ import { inject, Injectable } from "@angular/core";
 import { Router } from "@angular/router";
 import { getAuth, GoogleAuthProvider, signInWithPopup, User } from "firebase/auth";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-import { FirebaseService } from 'shared-firebase'
+import { FirebaseService } from 'shared-firebase';
 
 @Injectable({
   providedIn: "root",

@@ -15,6 +15,7 @@
       "auth": ["./dist/auth"],
       "shared-core": ["./dist/shared-core"],
       "shared-firebase": ["./dist/shared-firebase"],
+      "shared-models": ["./dist/shared-models"],
       "shared-ui": ["./dist/shared-ui"]
     },
     "importHelpers": true,
@@ -64,6 +65,12 @@
     },
     {
       "path": "./projects/shared-firebase/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shared-models/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shared-models/tsconfig.spec.json"
     }
   ]
 }
